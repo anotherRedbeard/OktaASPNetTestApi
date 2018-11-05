@@ -1,0 +1,14 @@
+/Users/andrewredman/src/chk/OktaTestApi/bin/Debug/netcoreapp2.1/OktaTestApi.deps.json
+/Users/andrewredman/src/chk/OktaTestApi/bin/Debug/netcoreapp2.1/OktaTestApi.runtimeconfig.json
+/Users/andrewredman/src/chk/OktaTestApi/bin/Debug/netcoreapp2.1/OktaTestApi.runtimeconfig.dev.json
+/Users/andrewredman/src/chk/OktaTestApi/bin/Debug/netcoreapp2.1/OktaTestApi.dll
+/Users/andrewredman/src/chk/OktaTestApi/bin/Debug/netcoreapp2.1/OktaTestApi.pdb
+/Users/andrewredman/src/chk/OktaTestApi/obj/Debug/netcoreapp2.1/OktaTestApi.csprojAssemblyReference.cache
+/Users/andrewredman/src/chk/OktaTestApi/obj/Debug/netcoreapp2.1/OktaTestApi.csproj.CoreCompileInputs.cache
+/Users/andrewredman/src/chk/OktaTestApi/obj/Debug/netcoreapp2.1/OktaTestApi.RazorAssemblyInfo.cache
+/Users/andrewredman/src/chk/OktaTestApi/obj/Debug/netcoreapp2.1/OktaTestApi.RazorAssemblyInfo.cs
+/Users/andrewredman/src/chk/OktaTestApi/obj/Debug/netcoreapp2.1/OktaTestApi.AssemblyInfoInputs.cache
+/Users/andrewredman/src/chk/OktaTestApi/obj/Debug/netcoreapp2.1/OktaTestApi.AssemblyInfo.cs
+/Users/andrewredman/src/chk/OktaTestApi/obj/Debug/netcoreapp2.1/OktaTestApi.RazorTargetAssemblyInfo.cache
+/Users/andrewredman/src/chk/OktaTestApi/obj/Debug/netcoreapp2.1/OktaTestApi.dll
+/Users/andrewredman/src/chk/OktaTestApi/obj/Debug/netcoreapp2.1/OktaTestApi.pdb
