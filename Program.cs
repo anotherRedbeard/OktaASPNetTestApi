@@ -21,24 +21,28 @@ namespace OktaTestApi
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .UseKestrel(
-                    c =>
-                    {
-                        // c.Listen(IPAddress.Any, 5000);
-                        // c.Listen(IPAddress.Any, 5001, listenOptions =>
-                        // {
-                        //     listenOptions.UseHttps("/HTTPS_cert/https.pfx", "****");
-                        //     listenOptions.UseHttps(new HttpsConnectionAdapterOptions
-                        //     {
-                        //         SslProtocols = SslProtocols.Tls12
-                        //     });
-                        // });
-                        c.ConfigureHttpsDefaults(opt =>
-                        {
-                            opt.SslProtocols = SslProtocols.Tls12;
-                        });
-                    });
+        WebHost.CreateDefaultBuilder(args)
+                .UseStartup<Startup>();
+            // WebHost.CreateDefaultBuilder(args)
+            //     .CaptureStartupErrors(true)
+            //     .UseSetting("detailedErrors", "true")
+            //     .UseStartup<Startup>()
+            //     .UseKestrel(
+            //         c =>
+            //         {
+            //             // c.Listen(IPAddress.Any, 5000);
+            //             // c.Listen(IPAddress.Any, 5001, listenOptions =>
+            //             // {
+            //             //     listenOptions.UseHttps("/HTTPS_cert/https.pfx", "****");
+            //             //     listenOptions.UseHttps(new HttpsConnectionAdapterOptions
+            //             //     {
+            //             //         SslProtocols = SslProtocols.Tls12
+            //             //     });
+            //             // });
+            //             c.ConfigureHttpsDefaults(opt =>
+            //             {
+            //                 opt.SslProtocols = SslProtocols.Tls12;
+            //             });
+            //         });
     }
 }
