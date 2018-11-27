@@ -16,7 +16,7 @@ namespace OktaTestApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2", "value3", "value 4" };
+            return new string[] { "here is a value", "value2" };
         }
 
         // GET api/values/5
