@@ -1,3 +1,4 @@
 {
-    "appService.deploySubpath": "bin/Debug/netcoreapp2.1/publish"
+    "appService.deploySubpath": "bin/Debug/netcoreapp2.1/publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/4beed2a9-bb9f-453e-a4a0-b1a82b65c2a5/resourceGroups/chk-okta-testing-dev/providers/Microsoft.Web/sites/chk-okta-testing-dev"
 }
