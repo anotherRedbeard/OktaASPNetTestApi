@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace OktaTestApi.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase

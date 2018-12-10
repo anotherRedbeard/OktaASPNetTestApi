@@ -54,6 +54,7 @@ namespace OktaTestApi
             }
 
             app.UseHttpsRedirection();
+            app.UseAuthentication();
             app.UseMvc();
         }
     }
